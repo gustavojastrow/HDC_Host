@@ -241,3 +241,47 @@ nav{
     opacity: 1;
 }
 
+.contact{
+    text-align: center;
+    padding: 5rem 0rem 2rem 0rem;
+}
+
+.contact h2{
+    font-size: 36px;
+}
+
+.contact p{
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.contact input,
+.contact textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.contact textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc762;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 50px;
+}
