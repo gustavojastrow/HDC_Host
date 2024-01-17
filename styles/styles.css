@@ -125,3 +125,73 @@ nav{
     line-height: 24px;
 }
 
+.pricing-container{
+    text-align: center;
+    padding-bottom: 5rem    ;
+}
+
+.pricing-container h2{
+    font-size: 36px;
+}
+
+.pricing-container p{
+    font-size: 20px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan{
+    flex: 1;
+    max-width: 275px;
+    margin: 20px 0;
+}
+.plan ul{
+    padding: 0;
+}
+.plan li{
+
+    height: 50px;
+    list-style: none;
+    line-height: 50px;
+    background-color: #e8e9ea;
+}
+
+.plan .price{
+    width: 120px;
+    border-radius: 50px;
+    height: 100px;
+    background-color: #2cc762;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto -50px;
+    position: relative;
+}
+
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 50px 0;
+    background-color: #202b34;
+}
+
+.plan .plan-btn{
+    background-color: #2cc762;
+    line-height: 60px;
+    height: 60px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.plan .recommended {
+    background-color: #ef8f29;
+}
